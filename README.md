@@ -19,6 +19,6 @@ $ docker build -t urbanlabs-landing .
 $ docker run \
     --name urbanlabs-landing \
     --restart=always \
-    -p 80:8080 \
+    -p 80:80 \
     -d urbanlabs-landing
 ```
