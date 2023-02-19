@@ -274,6 +274,10 @@ li {
     font-size: 18px;
   }
 
+  .display-none {
+    display: none;
+  }
+
   .padding {
     padding-bottom: 0;
   }
