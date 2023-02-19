@@ -193,6 +193,14 @@ li {
   gap: 40px;
 }
 
+.admin-image-item {
+
+}
+
+.admin-image-item img {
+
+}
+
 .demo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
