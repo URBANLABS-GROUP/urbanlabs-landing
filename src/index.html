@@ -14,16 +14,25 @@
 </head>
 
 <body>
+
+<div id="particles-js"></div>
+
 <header>
   <div class="background-header" id="background-header">
     <div class="header max-width">
       <a class="logo" href="index.html"></a>
       <div class="navigation">
-        <a href="#client">
-          Преимущества
-        </a>
         <a href="#demo">
           Демо
+        </a>
+        <a href="#client">
+          Арендаторам
+        </a>
+        <a href="#admin">
+          Собственникам
+        </a>
+        <a href="#stack">
+          Технологии
         </a>
       </div>
     </div>
@@ -33,11 +42,17 @@
     <div class="header max-width">
       <a class="logo" href="index.html"></a>
       <div class="navigation">
-        <a href="#client">
-          Преимущества
-        </a>
         <a href="#demo">
           Демо
+        </a>
+        <a href="#client">
+          Арендаторам
+        </a>
+        <a href="#admin">
+          Собственникам
+        </a>
+        <a href="#stack">
+          Технологии
         </a>
       </div>
     </div>
@@ -48,7 +63,7 @@
   <div class="about-the-system">
     <img src="img/logo-gray.svg" alt="Логотип">
     <p>
-      Система мониторинга и аналитики
+      BUILDING MANAGEMENT SYSTEM
     </p>
   </div>
 </div>
@@ -83,9 +98,8 @@
   <div class="max-width">
     <div class="grid-block">
       <h3>
-        Система мониторинга и аналитики URBANLABS в сфере автоматизированного управления зданий (АСУЗ, BMS)
-        для собственников и управляющих компаний бизнес-центров с преимущественно коммерческой недвижимостью
-        (офисы и коворкинги), сдающихся в аренду.
+        Автоматизированная система управления зданиями (АСУЗ, BMS) для собственников и управляющих компаний
+        бизнес-центров с коммерческой недвижимостью (офисы и коворкинги), сдающейся в аренду.
       </h3>
       <img src="img/test.png" alt="пример программы">
     </div>
@@ -104,7 +118,7 @@
 </div>
 
 <div class="max-width">
-  <div class="flex-column-block client padding">
+  <div class="flex-column-block client padding" id="admin">
     <h2>
       Панель администратора для арендодателя
     </h2>
@@ -129,7 +143,7 @@
 </div>
 
 <div class="max-width desktop">
-  <div class="flex-column-block border">
+  <div class="flex-column-block border" id="stack">
     <h2>
       Технологический стек
     </h2>
@@ -238,6 +252,8 @@
   </div>
 </footer>
 
+<script defer src="particles/particles.js"></script>
+<script defer src="particles/app.js"></script>
 <script async src="index.js"></script>
 </body>
 </html>
