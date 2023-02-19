@@ -272,7 +272,6 @@ li {
 }
 
 @media (max-width: 1000px) {
-
   h2 {
     font-size: 24px;
   }
@@ -387,6 +386,10 @@ li {
 
   .admin-image .admin-image-item:nth-child(odd) {
     margin: 0;
+  }
+
+  .admin-image-item img {
+    width: 150px;
   }
 }
 
